@@ -2,25 +2,25 @@
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, minmax(100px, auto));
-    grid-gap: 10px;
-    background-color: brown;
-    padding: 10px;
+    grid-gap: 20px;
+    background-color: rgba(255, 204, 0, 1);
+    padding: 20px;
   }
   
     .item {
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #444444;
-    border-radius: 5px;
-    background-color: lime;
+    border-radius: 20px;
+    background-color: rgb(245, 245, 245, 1);
     text-align: center;
-    color: #ffffff;
+    color: rgba(139, 0, 0, 1);
   }
   
   .header {
     grid-column: span 12;
     padding: 20px;
-    background-color: orange;
-    color: #000000;
+    background-color: rgb(255, 0, 0, 1);
+    color: rgba(139, 0, 0, 1);
   }
   
   .main {
@@ -36,8 +36,11 @@
   .footer {
     grid-column: span 12;
     padding: 20px;
-    background-color: orange;
+    background-color: rgb(0, 128, 0, 1);
   }
 
-  h1 {font-size: 10vh;}
-  h3 {font-size: 5vh;}
+  h1 {font-size: 14vh;}
+  h3, h4 {font-size: 5vh;}
+
+  a {text-decoration: none; color: rgba(139, 0, 0, 1);}
+  a:hover, a:active {font-weight: bolder; color: rgb(255, 255, 0, 1); transition: all 0.5s ease-in-out;}
