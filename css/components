@@ -1,0 +1,11 @@
+/*  ========================================================================  *\
+    F O N T  S T Y L E
+\*  ========================================================================  */
+  
+
+h1 {font-size: 14vh;}
+h3, h4 {font-size: 5vh;}
+p {font-size: 1.5vh;}
+
+a {text-decoration: none; color: rgba(139, 0, 0, 1);}
+    a:hover, a:active {font-weight: bolder; color: rgb(255, 255, 0, 1); transition: all 0.5s ease-in-out;}
