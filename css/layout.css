@@ -4,41 +4,89 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns:  1fr 3fr 1fr 1fr;
+    grid-template-rows:     auto;
     grid-template-areas:
         "header header header header"
         ". main aside ."
         "footer footer footer footer";
   
-    grid-gap:  3vh;
-    padding:   3vh;
+    column-gap:  3vh;
+    row-gap:     3vh;
+    padding:     3vh;
 }
   
     .item {
-        padding: 20px;
-        border: 1px solid #444444;
-        border-radius: 20px;
-        background-color: rgb(245, 245, 245, 1);
+        padding:           3vh;
+        border:            1px solid #444444;
+        border-radius:     3vh;
+        background-color:  rgb(245, 245, 245, 1);
   
-        text-align: center;
-        color: rgba(139, 0, 0, 1);
+        text-align:        center;
+        color:             rgba(139, 0, 0, 1);
     }
+
+@media(max-width: 768px) {
+    .container {
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-template-rows:     auto;
+        grid-template-areas:
+            "header"
+            "main"
+            "aside"
+            "footer";
+      
+        column-gap:  3vh;
+        row-gap:     3vh;
+        padding:     3vh;
+    }
+      
+        .item {
+            padding:           3vh;
+            border:            1px solid #444444;
+            border-radius:     3vh;
+            background-color:  rgb(245, 245, 245, 1);
+      
+            text-align:        center;
+            color:             rgba(139, 0, 0, 1);
+        }
+}
+    
+
+/*  ========================================================================  *\
+    H E A D E R
+\*  ========================================================================  */
   
 header {
-    grid-area:        header;
-    background-color: rgb(255, 0, 0, 1);
+    grid-area:            header;
+
+    background-image:     url("../image/header-background.jpg");
+    /*background-size:      cover;*/
+    background-repeat:    repeat;
+    background-position:  top;
 }
+
+/*  ========================================================================  *\
+    M A I N
+\*  ========================================================================  */
   
 main {
     grid-area:  main;
 }
-  
+
+/*  ========================================================================  *\
+    A S I D E
+\*  ========================================================================  */
+
 aside {
     grid-area:  aside;
 }
+
+/*  ========================================================================  *\
+    F O O T E R
+\*  ========================================================================  */
   
 footer {
-    grid-area:        footer;
-    background-color: rgb(0, 128, 0, 1);
+    grid-area:      footer;
 }
