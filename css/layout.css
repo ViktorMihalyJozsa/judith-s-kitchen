@@ -169,16 +169,16 @@ footer {
         grid-area:  main;
     
         width:      auto;
-        height:     47vh;    /*  summa height(100vh) - header-height - aside-height - 
+        height:     44vh;    /*  summa height(100vh) - header-height - aside-height - 
                                  summa top/bottom-margin - summa top/bottom-padding -
-                                 mobile window header (ca.:5vh)  */
+                                 mobile window header (ca.:8vh)  */
     }
     
     aside {
         grid-area:  aside;
         
         width:      auto;
-        height:     12vh;
+        height:     9vh;
     }
 
     footer {
