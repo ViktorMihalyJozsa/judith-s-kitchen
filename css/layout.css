@@ -93,27 +93,27 @@ aside {
 \*  ========================================================================  */
   
 footer {
-    grid-area:   footer;
+    grid-area:            footer;
 
-    width:       auto;
-    height:      auto;
-    margin:      3vh 0vh 0vh 0vh;
+    width:                auto;
+    height:               auto;
+    margin:               3vh 0vh 0vh 0vh;
 
     background-image:     url("../image/footer-background.jpg");
-    background-size:      auto;
-    background-repeat:    repeat;
-    background-position:  top;
+    background-size:      cover;
+    background-repeat:    no-repeat;
+    background-position:  center top;
 }
 
     .footer-item {
-        position:    relative;
+        position:  relative;
 
-        width:       calc(100% - 6vh);
-        height:      56vh;
-        padding:     3vh 3vh 0vh 3vh;
+        width:     calc(100% - 6vh);
+        height:    56vh;
+        padding:   3vh 3vh 0vh 3vh;
     }
 
-        .footer-box-left {
+        .footer-box-left-top {
             position:      absolute;
             left:          3vh;    /*  >> footer-item padding (3vh)  */
 
@@ -125,7 +125,7 @@ footer {
             border-color:  rgba(255, 255, 178, 0.66);
         }
         
-        .footer-box-right {
+        .footer-box-right-center {
             position:  absolute;
             right:     -3vh;    /*  >> footer-item padding (3vh)  */
 
@@ -147,12 +147,101 @@ footer {
             border-color:  rgba(255, 255, 178, 0.66);
         }
 
+/*  ========================================================================  *\
+    @ M E D I A  -  7 6 8 p x
+\*  ========================================================================  */
+
+@media(max-width: 768px) {
+
+    header {
+        grid-area:            header;
+    
+        background-image:     url("../image/header-background.jpg");
+        background-size:      auto;
+        background-repeat:    repeat;
+        background-position:  top;
+    
+        width:                auto;
+        height:               24vh;
+    }
+      
+    main {
+        grid-area:  main;
+    
+        width:      auto;
+        height:     52vh;
+    }
+    
+    aside {
+        grid-area:  aside;
+        
+        width:      auto;
+        height:     12vh;
+    }
+
+    footer {
+        grid-area:            footer;
+    
+        width:                auto;
+        height:               auto;
+        margin:               3vh 0vh 0vh 0vh;
+    
+        background-image:     url("../image/footer-background.jpg");
+        background-size:      cover;
+        background-repeat:    no-repeat;
+        background-position:  center top;
+    }
+    
+        .footer-item {
+            position:  relative;
+    
+            width:     calc(100% - 6vh);
+            height:    100vh;
+            padding:   3vh 3vh 0vh 3vh;
+        }
+    
+            .footer-box-left-top {
+                position:       absolute;
+                top:            3vh;    /*  >> footer-item padding (3vh)  */
+    
+                width:          100%;
+                height:         16vh;
+                padding:        0vh 0vh 3vh 0vh;
+    
+                border-right:   none;
+                border-bottom:  0.5vh dashed;
+                border-color:   rgba(255, 255, 178, 0.66);
+            }
+            
+            .footer-box-right-center {
+                position:  absolute;
+                top:       18vh;    /*  >> footer-item padding (3vh)  */
+    
+                width:     100%;
+                height:    76vh;
+                padding:   3vh 0vh 3vh 0vh;
+            }
+    
+            .footer-box-bottom {
+                position:      absolute;
+                bottom:        0;
+    
+                width:         100%;
+                height:        8vh;    /*  padding-bottom + font-size + pedding-top + border-top  */
+                margin:        none;
+                padding:       3vh 0vh 3vh 0vh;
+    
+                border-top:    0.5vh dashed;
+                border-color:  rgba(255, 255, 178, 0.66);
+            }
+}
+
 
 /*  ========================================================================  *\
     B A C K G R O U N D
 \*  ========================================================================  */
 
 footer {background-color: rgba(165, 42, 42, 0.9);}
-    /*.footer-box-left {background-color: yellow;}
-    .footer-box-right {background-color: green;}
-    .footer-box-bottom {background-color: yellowgreen;}
+    /*.footer-box-left-top {background-color: yellow;}
+    .footer-box-right-center {background-color: green;}
+    .footer-box-bottom {background-color: yellowgreen;}*/
