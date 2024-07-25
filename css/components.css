@@ -25,6 +25,12 @@ a {
         transition:   all 0.5s ease-in-out;
     }
 
+    .left {text-align: left;}
+    .center {text-align: center;}
+    .right {text-align: right;}
+
+    .light-color {color: rgba(255, 255, 178, 0.85);}
+
 @media(max-width: 768px) {
     h1 {
         font-size:  9vh;
@@ -46,5 +52,11 @@ a {
             font-weight:  bolder; 
             color:        rgb(255, 255, 0, 1); 
             transition:   all 0.5s ease-in-out;
-        }    
+        }
+
+        .left {text-align: left;}
+        .center {text-align: center;}
+        .right {text-align: right;}
+    
+        .light-color {color: rgba(255, 255, 178, 0.85);}
 }
