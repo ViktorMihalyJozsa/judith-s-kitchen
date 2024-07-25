@@ -97,14 +97,14 @@ footer {
 
     width:       auto;
     height:      auto;
-    margin-top:  3vh;
+    margin:      3vh 0vh 0vh 0vh;
 }
 
     .footer-item {
         position:    relative;
 
         width:       calc(100% - 6vh);
-        height:      33vh;
+        height:      56vh;
         padding:     3vh 3vh 0vh 3vh;
 
         text-align:  center;
@@ -113,10 +113,10 @@ footer {
 
         .footer-box-left {
             position:      absolute;
-            left:          3vh;
+            left:          3vh;    /*  >> footer-item padding (3vh)  */
 
-            width:         calc(33.33% - 3vh);
-            height:        20vh;
+            width:         33.33%;
+            height:        40vh;
             padding:       0vh 3vh 0vh 0vh;
 
             border-right:  0.3vh solid;
@@ -125,10 +125,11 @@ footer {
         
         .footer-box-right {
             position:  absolute;
-            right:     -3vh;
+            right:     -3vh;    /*  >> footer-item padding (3vh)  */
 
             width:     66.66%;
-            height:    20vh;
+            height:    40vh;
+            padding:   0vh 0vh 0vh 3vh;
         }
 
         .footer-box-bottom {
@@ -136,9 +137,9 @@ footer {
             bottom:        0;
 
             width:         100%;
-            height:        7vh;
-            margin-top:    3vh;
-            padding:       2vh;
+            height:        10vh;    /*  padding-bottom + font-size + pedding-top + border-top  */
+            margin:        3vh 0vh 0vh 0vh;
+            padding:       3vh 0vh 3vh 0vh;
 
             border-top:    0.3vh solid;
             border-color:  grey;
