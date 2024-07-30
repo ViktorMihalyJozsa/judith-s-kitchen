@@ -107,7 +107,7 @@ main {
     grid-area:  main;
 
     width:      auto;
-    height:     70vh;
+    height:     65vh;
 }
 
 
@@ -237,7 +237,7 @@ footer {
         grid-area:  main;
     
         width:      auto;
-        height:     42vh;    /*  summa height(100vh) - header-height - aside-height - 
+        height:     37vh;    /*  summa height(100vh) - header-height - aside-height - 
                                  summa top/bottom-margin - summa top/bottom-padding -
                                  mobile window header (ca.:5vh)  */
     }
