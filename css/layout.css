@@ -62,13 +62,13 @@ header {
 }
     
     .header-item {
-        width:                calc(100% - 6vh);
+        width:                100%;    /*calc(100% - 6vh);*/
         height:               26vh;
-        margin:               3vh 3vh 0vh 3vh;
+        margin:               0vh;
         padding:              3vh 3vh 1vh 3vh;
 
-        border:               1px solid #444444;
-        border-radius:        3vh;
+        border-bottom:        1px solid #444444;
+        border-radius:        none;
 
         background-color:     rgba(255, 255, 178, 0.85);
         background-image:     url("../image/header-background.jpg");
@@ -107,7 +107,7 @@ main {
     grid-area:  main;
 
     width:      auto;
-    height:     65vh;
+    height:     68vh;
 }
 
 
@@ -197,13 +197,13 @@ footer {
     }
         
         .header-item {
-            width:                calc(100% - 6vh);
+            width:                100%;    /*calc(100% - 6vh);*/
             height:               34vh;
-            margin:               3vh 3vh 0vh 3vh;
+            margin:               0vh;
             padding:              3vh 3vh 1vh 3vh;
     
             border:               1px solid #444444;
-            border-radius:        3vh;
+            border-radius:        none;
     
             background-color:     rgba(255, 255, 178, 0.85);
             background-image:     url("../image/header-background.jpg");
@@ -237,7 +237,7 @@ footer {
         grid-area:  main;
     
         width:      auto;
-        height:     37vh;    /*  summa height(100vh) - header-height - aside-height - 
+        height:     40vh;    /*  summa height(100vh) - header-height - aside-height - 
                                  summa top/bottom-margin - summa top/bottom-padding -
                                  mobile window header (ca.:5vh)  */
     }
