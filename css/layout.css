@@ -273,7 +273,7 @@ footer {
         grid-area:  main;
     
         width:      auto;
-        height:     58.75vh;    /*  summa height(100vh) - header-height - aside-height - 
+        height:     48.75vh;    /*  summa height(100vh) - header-height - aside-height - 
                                  summa top/bottom-margin - summa top/bottom-padding -
                                  mobile window header (ca.:5vh)  */
     }
