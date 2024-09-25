@@ -33,7 +33,7 @@ a {
     
     h1 {font-size:  8vh;}    /*  60%  */
     h3 {font-size:  3vh;}
-    h4 {font-size:  3vh;}
+    h4 {font-size:  2.5vh;}
     p  {font-size:  1.8vh;}
     
     a {
@@ -59,9 +59,9 @@ a {
 \*  ========================================================================  */
 
 footer {background-color: rgba(165, 42, 42, 0.9);}
-    /*.sitename {background-color: blueviolet;}
+    .sitename {background-color: blueviolet;}
     .namesday-one-row {background-color: blue;}
     .namesday-two-row {background-color: red;}
     .footer-box-left-top {background-color: yellow;}
     .footer-box-right-center {background-color: green;}
-    .footer-box-bottom {background-color: yellowgreen;}*/
+    .footer-box-bottom {background-color: yellowgreen;}
