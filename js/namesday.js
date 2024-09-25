@@ -120,5 +120,4 @@ if (ho==12)
 
   document.writeln("<font>Today is </font>")
   document.writeln("<font color=#ff0000>"+havinev(ev,ho,nap)+"</font>")
-  document.writeln("<font> day .</font>")
-  document.writeln("<font> We wish you many happy name days !</font>")
+  document.writeln("<font> day in Hungary .</font>")
