@@ -3,9 +3,9 @@
 \*  ========================================================================  */
 
 
-h1 {font-size:  15vh;}
+h1 {font-size:  15vh; font-weight: bold;}
 h3 {font-size:  5vh;}
-h4 {font-size:  4vh;}
+h4 {font-size:  4vh; font-weight: bold;}
 p  {font-size:  3vh;}
 
 a {
@@ -59,9 +59,11 @@ a {
 \*  ========================================================================  */
 
 footer {background-color: rgba(165, 42, 42, 0.9);}
-    /*.sitename {background-color: blueviolet;}
-    .namesday-one-row {background-color: blue;}
-    .namesday-two-row {background-color: red;}
+/*header {background-color: aqua;}
+    .sitename {background-color: blueviolet;}
+    .namesday {background-color: yellow;}
+        .namesday-one-row {background-color: blue;}
+        .namesday-two-row {background-color: red;}
     .footer-box-left-top {background-color: yellow;}
     .footer-box-right-center {background-color: green;}
     .footer-box-bottom {background-color: yellowgreen;}*/
